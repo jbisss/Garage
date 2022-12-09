@@ -87,6 +87,15 @@ public class Car {
     public String getCondition() {
         return String.format("%.1f", condition);
     }
+    public String getSalesmanName(){
+        return this.salesman.getFullName();
+    }
+    public String getSalesmanAge(){
+        return this.salesman.getAge();
+    }
+    public String getSalesmanRating(){
+        return this.salesman.getRating();
+    }
     @Override
     public String toString(){
         return "\nМашина: " + this.brand + "\nСтоимость: " + this.cost + "руб." + "\nГод выпуска: "

@@ -40,6 +40,9 @@ public class CarsListController {
     public ArrayList<TextField> textCost = new ArrayList<>();
     public ArrayList<TextField> textYear = new ArrayList<>();
     public ArrayList<TextField> textCondition = new ArrayList<>();
+    public ArrayList<TextField> textSalesmanName = new ArrayList<>();
+    public ArrayList<TextField> textSalesmanAge = new ArrayList<>();
+    public ArrayList<TextField> textSalesmanRating = new ArrayList<>();
 
     public void initialize(){
         textCost.add(this.carCost_1);
@@ -54,6 +57,18 @@ public class CarsListController {
         textCondition.add(this.carCondition_2);
         textCondition.add(this.carCondition_3);
         textCondition.add(this.carCondition_4);
+        textSalesmanName.add(this.sallerName_1);
+        textSalesmanName.add(this.sallerName_2);
+        textSalesmanName.add(this.sallerName_3);
+        textSalesmanName.add(this.sallerName_4);
+        textSalesmanAge.add(this.sallerAge_1);
+        textSalesmanAge.add(this.sallerAge_2);
+        textSalesmanAge.add(this.sallerAge_3);
+        textSalesmanAge.add(this.sallerAge_4);
+        textSalesmanRating.add(this.sallerRating_1);
+        textSalesmanRating.add(this.sallerRating_2);
+        textSalesmanRating.add(this.sallerRating_3);
+        textSalesmanRating.add(this.sallerRating_4);
     }
 
     public void setCarBrand(String carBrand){
@@ -64,6 +79,9 @@ public class CarsListController {
             textCost.get(i).setText(cars.get(i).getCost());
             textYear.get(i).setText(cars.get(i).getYear());
             textCondition.get(i).setText(cars.get(i).getCondition());
+            textSalesmanName.get(i).setText(cars.get(i).getSalesmanName());
+            textSalesmanAge.get(i).setText(cars.get(i).getSalesmanAge());
+            textSalesmanRating.get(i).setText(cars.get(i).getSalesmanRating());
         }
     }
     // Button
