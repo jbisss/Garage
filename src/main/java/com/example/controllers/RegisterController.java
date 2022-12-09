@@ -37,7 +37,7 @@ public class RegisterController {
         if (age >= 18) {
             ObjectsStorage.setCustomer(new Customer(age, textName.getText(), balance));
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("sales.fxml"));
+            loader.setLocation(getClass().getResource("carsList.fxml"));
             LoaderFxml(loader);
             Stage stagePrev = (Stage) approveButton.getScene().getWindow();
             stagePrev.hide();

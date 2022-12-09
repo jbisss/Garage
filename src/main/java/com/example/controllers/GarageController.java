@@ -15,7 +15,7 @@ public class GarageController {
     public Button buttonBack;
     private void closeWindow(Button button){
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("cars.fxml"));
+        loader.setLocation(getClass().getResource("carsList.fxml"));
         LoaderFxml(loader);
         Stage stagePrev = (Stage) button.getScene().getWindow();
         stagePrev.hide();
