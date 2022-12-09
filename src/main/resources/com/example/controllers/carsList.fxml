@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="493.0" prefWidth="928.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.CarsListController">
+   <children>
+      <Label layoutX="333.0" layoutY="14.0" text="Выберите марку машины">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="105.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="102.0" text="Honda">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="152.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="102.0" text="Kia">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="210.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="102.0" text="Ford">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="264.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="102.0" text="Lada">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="325.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="102.0" text="Chery">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="194.0" layoutY="115.0" text="Машина 1:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="55.0" text="Марка: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="carBrand" layoutX="263.0" layoutY="53.0" />
+      <TextField fx:id="carCost_1" layoutX="264.0" layoutY="112.0" />
+      <TextField fx:id="carYear_1" layoutX="423.0" layoutY="112.0" prefHeight="26.0" prefWidth="111.0" />
+      <TextField fx:id="carCondition_1" layoutX="543.0" layoutY="112.0" prefHeight="26.0" prefWidth="69.0" />
+      <Label layoutX="303.0" layoutY="92.0" text="Стоимость">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="439.0" layoutY="92.0" text="Год выпуска">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="544.0" layoutY="92.0" text="Состояние">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="190.0" text="Машина 2:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="carCost_2" layoutX="264.0" layoutY="187.0" />
+      <TextField fx:id="carYear_2" layoutX="423.0" layoutY="187.0" prefHeight="26.0" prefWidth="111.0" />
+      <TextField fx:id="carCondition_2" layoutX="543.0" layoutY="187.0" prefHeight="26.0" prefWidth="69.0" />
+      <Label layoutX="194.0" layoutY="254.0" text="Машина 3:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="carCost_3" layoutX="264.0" layoutY="251.0" />
+      <TextField fx:id="carYear_3" layoutX="423.0" layoutY="251.0" prefHeight="26.0" prefWidth="111.0" />
+      <TextField fx:id="carCondition_3" layoutX="543.0" layoutY="251.0" prefHeight="26.0" prefWidth="69.0" />
+      <Label layoutX="194.0" layoutY="328.0" text="Машина 4:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="carCost_4" layoutX="264.0" layoutY="325.0" />
+      <TextField fx:id="carYear_4" layoutX="423.0" layoutY="325.0" prefHeight="26.0" prefWidth="111.0" />
+      <TextField fx:id="carCondition_4" layoutX="543.0" layoutY="325.0" prefHeight="26.0" prefWidth="69.0" />
+      <Label layoutX="652.0" layoutY="94.0" text="Продавец">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sallerName_1" layoutX="652.0" layoutY="112.0" prefHeight="26.0" prefWidth="267.0" />
+      <TextField fx:id="sallerName_2" layoutX="652.0" layoutY="187.0" prefHeight="26.0" prefWidth="267.0" />
+      <TextField fx:id="sallerName_3" layoutX="652.0" layoutY="251.0" prefHeight="26.0" prefWidth="267.0" />
+      <TextField fx:id="sallerName_4" layoutX="652.0" layoutY="325.0" prefHeight="26.0" prefWidth="267.0" />
+      <Button fx:id="carChoose_1" layoutX="193.0" layoutY="152.0" mnemonicParsing="false" text="Выбрать" />
+      <Button fx:id="carChoose_2" layoutX="193.0" layoutY="217.0" mnemonicParsing="false" text="Выбрать" />
+      <Button fx:id="carChoose_3" layoutX="193.0" layoutY="284.0" mnemonicParsing="false" text="Выбрать" />
+      <Button fx:id="carChoose_4" layoutX="193.0" layoutY="352.0" mnemonicParsing="false" text="Выбрать" />
+      <Label layoutX="652.0" layoutY="156.0" text="Возраст:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="652.0" layoutY="220.0" text="Возраст:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="652.0" layoutY="293.0" text="Возраст:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sallerAge_1" layoutX="727.0" layoutY="153.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="sallerAge_2" layoutX="727.0" layoutY="217.0" prefHeight="26.0" prefWidth="38.0" />
+      <TextField fx:id="sallerAge_3" layoutX="727.0" layoutY="290.0" prefHeight="26.0" prefWidth="38.0" />
+      <Label layoutX="652.0" layoutY="368.0" text="Возраст:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="saller_4" layoutX="727.0" layoutY="365.0" prefHeight="26.0" prefWidth="38.0" />
+      <Label layoutX="653.0" layoutY="32.0" text="Деньги:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customerMoney" layoutX="727.0" layoutY="29.0" prefHeight="26.0" prefWidth="190.0" />
+      <Label fx:id="approveCar" layoutX="194.0" layoutY="391.0" text="Подтверждение">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="425.0" text="Введите PIN-code:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="194.0" layoutY="422.0" />
+      <Label fx:id="approveCard" layoutX="193.0" layoutY="458.0" text="Подтверждение">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonBuy" layoutX="396.0" layoutY="422.0" mnemonicParsing="false" text="Купить" />
+      <Button fx:id="buttonGarage" layoutX="504.0" layoutY="422.0" mnemonicParsing="false" text="Перейти в гараж" />
+      <Label layoutX="669.0" layoutY="4.0" text="Имя:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customerName" layoutX="727.0" layoutY="1.0" prefHeight="26.0" prefWidth="190.0" />
+      <Label layoutX="650.0" layoutY="65.0" text="Возраст:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="customerAge" layoutX="727.0" layoutY="62.0" prefHeight="26.0" prefWidth="190.0" />
+      <Label layoutX="786.0" layoutY="156.0" text="Рейтинг:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="786.0" layoutY="220.0" text="Рейтинг:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="786.0" layoutY="293.0" text="Рейтинг:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="786.0" layoutY="368.0" text="Рейтинг:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sallerRating_1" layoutX="851.0" layoutY="154.0" prefHeight="26.0" prefWidth="65.0" />
+      <TextField fx:id="sallerRating_2" layoutX="851.0" layoutY="217.0" prefHeight="26.0" prefWidth="65.0" />
+      <TextField fx:id="sallerRating_3" layoutX="851.0" layoutY="290.0" prefHeight="26.0" prefWidth="65.0" />
+      <TextField fx:id="sallerRating_4" layoutX="851.0" layoutY="365.0" prefHeight="26.0" prefWidth="65.0" />
+   </children>
+</AnchorPane>
