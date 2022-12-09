@@ -10,6 +10,7 @@ public class Car {
     public static ArrayList<Car> carsFord;
     public static ArrayList<Car> carsLada;
     public static ArrayList<Car> carsChery;
+    private static int chosenIndex;
     private final Salesman salesman;
     private final String brand;
     private final int cost;
@@ -70,6 +71,12 @@ public class Car {
         this.year = yearOfIssue;
         this.condition = condition;
         this.salesman = salesman;
+    }
+    public static void setChosenIndex(int index){
+        chosenIndex = index;
+    }
+    public static int getChosenIndex(){
+        return chosenIndex;
     }
 
     public String getBrand() {

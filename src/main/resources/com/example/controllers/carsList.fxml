@@ -100,10 +100,10 @@
       <TextField fx:id="sallerName_2" editable="false" layoutX="652.0" layoutY="187.0" prefHeight="26.0" prefWidth="267.0" />
       <TextField fx:id="sallerName_3" editable="false" layoutX="652.0" layoutY="251.0" prefHeight="26.0" prefWidth="267.0" />
       <TextField fx:id="sallerName_4" editable="false" layoutX="652.0" layoutY="325.0" prefHeight="26.0" prefWidth="267.0" />
-      <Button fx:id="carChoose_1" layoutX="193.0" layoutY="152.0" mnemonicParsing="false" text="Выбрать" />
-      <Button fx:id="carChoose_2" layoutX="193.0" layoutY="217.0" mnemonicParsing="false" text="Выбрать" />
-      <Button fx:id="carChoose_3" layoutX="193.0" layoutY="284.0" mnemonicParsing="false" text="Выбрать" />
-      <Button fx:id="carChoose_4" layoutX="193.0" layoutY="352.0" mnemonicParsing="false" text="Выбрать" />
+      <Button fx:id="buttonCarChoose_1" onAction="#buttonChoseClick_1" layoutX="193.0" layoutY="152.0" mnemonicParsing="false" text="Выбрать" />
+      <Button fx:id="buttonCarChoose_2" onAction="#buttonChoseClick_2" layoutX="193.0" layoutY="217.0" mnemonicParsing="false" text="Выбрать" />
+      <Button fx:id="buttonCarChoose_3" onAction="#buttonChoseClick_3" layoutX="193.0" layoutY="284.0" mnemonicParsing="false" text="Выбрать" />
+      <Button fx:id="buttonCarChoose_4" onAction="#buttonChoseClick_4" layoutX="193.0" layoutY="352.0" mnemonicParsing="false" text="Выбрать" />
       <Label layoutX="652.0" layoutY="156.0" text="Возраст:">
          <font>
             <Font size="14.0" />
@@ -128,12 +128,12 @@
          </font>
       </Label>
       <TextField fx:id="sallerAge_4" editable="false" layoutX="727.0" layoutY="365.0" prefHeight="26.0" prefWidth="38.0" />
-      <Label layoutX="653.0" layoutY="35.0" text="Баланс:">
+      <Label layoutX="655.0" layoutY="66.0" text="Баланс:">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField fx:id="customerMoney" editable="false" layoutX="725.0" layoutY="31.0" prefHeight="26.0" prefWidth="190.0" />
+      <TextField fx:id="customerMoney" editable="false" layoutX="725.0" layoutY="61.0" prefHeight="26.0" prefWidth="190.0" />
       <Label fx:id="approveCar" layoutX="193.0" layoutY="495.0" text="Подтверждение">
          <font>
             <Font size="14.0" />
@@ -152,18 +152,18 @@
       </Label>
       <Button fx:id="buttonBuy" layoutX="351.0" layoutY="526.0" mnemonicParsing="false" text="Купить" />
       <Button fx:id="buttonGarage" layoutX="413.0" layoutY="526.0" mnemonicParsing="false" text="Перейти в гараж" />
-      <Label layoutX="670.0" layoutY="5.0" text="Имя:">
+      <Label layoutX="673.0" layoutY="5.0" text="Имя:">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
       <TextField fx:id="customerName" editable="false" layoutX="725.0" layoutY="1.0" prefHeight="26.0" prefWidth="190.0" />
-      <Label layoutX="650.0" layoutY="65.0" text="Возраст:">
+      <Label layoutX="650.0" layoutY="34.0" text="Возраст:">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField fx:id="customerAge" editable="false" layoutX="725.0" layoutY="61.0" prefHeight="26.0" prefWidth="190.0" />
+      <TextField fx:id="customerAge" editable="false" layoutX="725.0" layoutY="31.0" prefHeight="26.0" prefWidth="190.0" />
       <Label layoutX="786.0" layoutY="156.0" text="Рейтинг:">
          <font>
             <Font size="14.0" />
