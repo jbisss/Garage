@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Garage {
     private final Customer owner;
-    public ArrayList<Car> carList = new ArrayList<>();
+    private final ArrayList<Car> carList = new ArrayList<>();
     public Garage(Customer owner) {
         this.owner = owner;
     }

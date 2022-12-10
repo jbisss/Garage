@@ -24,7 +24,6 @@ public class GarageController {
         try {
             loader.load();
         } catch (IOException e) {
-
             e.printStackTrace();
         }
         Parent root = loader.getRoot();

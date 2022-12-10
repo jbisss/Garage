@@ -6,15 +6,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="384.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.GarageController">
    <children>
-      <Label layoutX="199.0" layoutY="14.0" text="Гараж">
+      <Label layoutX="266.0" layoutY="14.0" text="Гараж">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
       <TextArea fx:id="textAreaGarage" layoutX="44.0" layoutY="64.0" prefHeight="273.0" prefWidth="512.0" />
-      <Button fx:id="buttonBack" onAction="#buttonBackClick" layoutX="227.0" layoutY="345.0" mnemonicParsing="false" text="Назад" />
+      <Button fx:id="buttonBack" layoutX="276.0" layoutY="345.0" mnemonicParsing="false" onAction="#buttonBackClick" text="Назад" />
    </children>
 </AnchorPane>
