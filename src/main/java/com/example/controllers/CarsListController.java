@@ -109,7 +109,14 @@ public class CarsListController {
     private static Car chosenCar = null;
     private static ArrayList<Car> chosenCars = null;
     public void buyCar(){
-        if (ObjectsStorage.customer.getPin() == Integer.parseInt(textPin.getText())){
+        int pinCode = 0;
+        try{
+            pinCode = Integer.parseInt(textPin.getText());
+        } catch (Exception exp) {
+            System.out.println("Invalid input!");
+        }
+
+        if (ObjectsStorage.customer.getPin() == pinCode){
             System.out.println("Correct pin!");
             if (ObjectsStorage.customer.getMoney() >= Integer.parseInt(chosenCar.getCost())) {
                 System.out.println("Enough money!");

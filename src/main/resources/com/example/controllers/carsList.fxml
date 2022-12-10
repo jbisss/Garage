@@ -150,7 +150,7 @@
       </font>
    </Label>
    <Button fx:id="buttonBuy" layoutX="351.0" layoutY="526.0" mnemonicParsing="false" onAction="#buyCar" text="Купить" />
-   <Button fx:id="buttonGarage" onAction="#moveToGarage" layoutX="413.0" layoutY="526.0" mnemonicParsing="false" text="Перейти в гараж" />
+   <Button fx:id="buttonGarage" layoutX="413.0" layoutY="526.0" mnemonicParsing="false" onAction="#moveToGarage" text="Перейти в гараж" />
    <Label layoutX="673.0" layoutY="5.0" text="Имя:">
       <font>
          <Font size="14.0" />
@@ -192,7 +192,7 @@
          <Font size="14.0" />
       </font>
    </Label>
-   <TextField fx:id="textChosenCar" alignment="CENTER" layoutX="193.0" layoutY="398.0" prefHeight="25.0" prefWidth="80.0" />
+   <TextField fx:id="textChosenCar" alignment="CENTER" editable="false" layoutX="193.0" layoutY="398.0" prefHeight="25.0" prefWidth="80.0" />
    <Label layoutX="282.0" layoutY="402.0" text="по стоимости:">
       <font>
          <Font size="14.0" />
